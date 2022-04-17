@@ -1,0 +1,320 @@
+/* Global Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.page-contained {
+    background: var(--er-color-white);
+    padding-top: 6em;
+    border-radius: 8px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 2em;
+}
+
+.section-header {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.section-title {
+    color: #1a1e22;
+    font-family: var(--er-font-inter);
+    font-size: 22px;
+    font-weight: 400;
+    border-bottom: 2.5px solid var(--er-color-main);
+    width: fit-content;
+    position: relative;
+    padding-bottom: 0.3em;
+    z-index: 9;
+}
+
+.section-title-underline {
+    width: 97%;
+    height: 2px;
+    background: #d8d8d8;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.product-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 295px;
+    padding: 1em 1em;
+    transition: all 0.3s linear;
+}
+
+.product-card:not(:last-child) {
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+
+
+.product-card .category-title {
+    color: #5e6266;
+    font-family: var(--er-font-inter);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+.product-card .product-title {
+    color: var(--er-color-font);
+    font-family: var(--er-font-inter);
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 45px;
+}
+
+.product-card .product-img-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-card .product-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.product-card .product-card-footer .product-price {
+    color: #333e48;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--er-font-inter);
+}
+
+.product-card .product-card-footer .add-to-cart-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #EAEBEB;
+    transition: background-color 0.2s linear;
+}
+
+.product-card .product-card-footer .add-to-cart-icon svg {
+    font-size: 22px;
+    color: white;
+}
+
+.product-card .product-card-footer .add-to-cart-icon:hover {
+    background-color: var(--er-color-main);
+    cursor: pointer;
+}
+
+
+.product-card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 4px;
+}
+
+
+/* 
+
+==================== First Section after Slider -> Popular Categories
+
+*/
+.category-card {
+    background: var(--er-color-bg);
+    margin-bottom: 2em;
+    border-radius: 8px;
+}
+
+.category-card .category-img {
+    margin-top: -50px;
+}
+
+.category-card .content {
+    margin-top: 1em;
+    font-family: 'Inter', sans-serif;
+}
+
+.category-card .content .title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+============ Deals of the Day --- Section 2
+
+*/
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================== SECTION THIRD - Ad blocks
+
+*/
+
+
+.ads-block-sec-first {
+    column-gap: 2em;
+    height: 220px;
+    overflow: hidden;
+}
+
+.ads-block-sec-first .ad-block-wsix {
+    background: url("/src/assets/images/bg-banner.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ads-block-sec-first .er-ad-block:first-child .ad-block-img {
+    height: 100%;
+}
+
+.ads-block-sec-first .er-ad-block:first-child .ad-block-img>img {
+    width: 230px;
+    transform: rotate(334deg);
+    margin-top: -14px;
+}
+
+
+
+.section-third .er-ad-block {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.er-ad-block a {
+    height: 100%;
+    text-decoration: none;
+}
+
+.ads-block-sec .ad-block-wsix {
+    flex: 2;
+}
+
+.ads-block-sec .ad-block-wthree {
+    flex: 1;
+}
+
+.ads-block-sec-first .text-content {
+    font-size: 20px;
+    font-weight: 300;
+    color: #29323a;
+    font-family: var(--er-font-inter);
+}
+
+.ads-block-sec-first .text-content b {
+    font-weight: 700;
+}
+
+.ads-block-sec-first .ad-block-second {
+    background-image: url(/src/assets/images/banner-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ads-block-sec-first .ad-block-third {
+    background-image: url(/src/assets/images/banner-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================== Sixth Section - Brand Blocks
+
+*/
+
+section.brand-blocks {
+    justify-content: flex-start;
+}
+
+
+.top-brands .brand-block-wrapper {
+    padding: 0em 1.5em;
+    margin: 1.5em 0px;
+}
+
+.top-brands .brand-block {
+    padding: 2em 3em 2em 1.5em;
+    background-color: var(--er-color-bg);
+    border-radius: 8px;
+}
+
+.top-brands .brand-block .brand-logo {
+    padding-bottom: 1em;
+}
+
+.top-brands .brand-block .brand-block-img {
+    position: absolute;
+    right: -70px;
+    bottom: -45px;
+}
+
+.top-brands .brand-block .brand-desc {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--er-font-inter);
+    color: #8a8a8a;
+}
