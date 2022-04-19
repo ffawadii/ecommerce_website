@@ -11,6 +11,8 @@ import "swiper/css/navigation";
 import "./herSlider.css";
 
 import img_slide_1 from "../../../assets/images/slider-img-1.png";
+import img_slide_2 from "../../../assets/images/slider-img-2.png";
+import img_slide_3 from "../../../assets/images/slider-img-4.jpg";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -54,7 +56,7 @@ export default () => {
                             <button type="button" className="btn btn-shop-now">Shop Now</button>
                         </div>
                         <div className="slide-img-wrapper">
-                            <img src={img_slide_1} alt="slider-img-1" />
+                            <img src={img_slide_2} alt="slider-img-1" />
                         </div>
                     </div>
                 </SwiperSlide>

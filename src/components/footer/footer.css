@@ -1,6 +1,11 @@
 footer {
+    background: white;
+    margin-top: 5em;
+}
+
+footer .newsletter-sec {
     background: #FFD600;
-    height: 68px;
+    height: 60px;
 }
 
 
@@ -37,6 +42,57 @@ footer .newsletter-content .sign-up-title .desc {
     color: white;
 }
 
+.footer-main>.container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+footer .call-us svg {
+    font-size: 60px;
+    color: #fed700;
+}
+
+footer .call-us .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-left: 1.5em;
+}
+
+footer .call-us .text-content .title h4 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #333e48;
+    margin: 0px;
+    font-family: var(--er-font-inter);
+}
+
+footer .call-us .text-content .phone-no p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+footer .contact-info {
+    margin-top: 3em;
+}
+
+footer .contact-info h4 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--er-font-inter);
+    color: #333e48;
+    margin: 0px;
+}
+
+footer .contact-info p {
+    color: #333e48;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--er-font-inter);
+}
+
 
 footer .social-icons svg {
     width: fit-content;
@@ -44,4 +100,58 @@ footer .social-icons svg {
     font-weight: 400;
     color: rgb(97, 97, 97);
     cursor: pointer;
+}
+
+
+
+
+footer .col-title h2 {
+    color: #282f35;
+    font-weight: 600;
+    font-family: var(--er-font-inter);
+    font-size: 16px;
+    margin-bottom: 1.3em;
+}
+
+footer .col-content ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 3px 0px;
+}
+
+footer .col-content ul li a {
+    text-decoration: none;
+    color: #29323a;
+    font-family: var(--er-font-inter);
+    font-size: 14px;
+}
+
+
+
+footer .copyright-sec {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EAEBEB;
+}
+
+footer .copyright-sec .copyright-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .copyright-sec .copyright-text>h4 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--er-font-inter);
+    color: #333e48;
+    margin: 0px;
+}
+
+footer .copyright-sec .payment-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
